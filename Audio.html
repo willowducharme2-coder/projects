@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willow DuCharme | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Audio</h1>
+    </header>
+    <header class="nav-heading"><h3>Navigation</h3></header>
+    <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+            <li><a href="homepage.html" onclick="event.preventDefault(); try { document.getElementById('click-sound').play(); } catch(e){} setTimeout(() => { window.location.href = 'homepage.html'; }, 300);">Homepage</a></li>
+            <li><a href="Graphic-design.html" onclick="event.preventDefault(); try { document.getElementById('click-sound').play(); } catch(e){} setTimeout(() => { window.location.href = 'Graphic-design.html'; }, 300);">Graphic Design</a></li>
+            <li><a href="Video.html" onclick="event.preventDefault(); try { document.getElementById('click-sound').play(); } catch(e){} setTimeout(() => { window.location.href = 'Video.html'; }, 300);">Video</a></li>
+            <li><a href="Audio.html" onclick="event.preventDefault(); try { document.getElementById('click-sound').play(); } catch(e){} setTimeout(() => { window.location.href = 'Audio.html'; }, 300);">Audio</a></li>
+            <li><a href="Animation.html" onclick="event.preventDefault(); try { document.getElementById('click-sound').play(); } catch(e){} setTimeout(() => { window.location.href = 'Animation.html'; }, 300);">Animation</a></li>
+            <li><a href="contact.html" onclick="event.preventDefault(); try { document.getElementById('click-sound').play(); } catch(e){} setTimeout(() => { window.location.href = 'contact.html'; }, 300);">Contact</a></li>
+        </ul>
+         <audio id="click-sound" src="click.wav" preload="auto"></audio>
+    </nav>
+    <main class="page-content">
+        <img class="portfolio-image garfeild clown" src="tom thumb.jpg" alt="Peeking Clown">
+    </main>
+    
+    <audio controls>
+        <source src="tomthumb.mp3" type="audio/mpeg">
+       
+    </audio>
+
+    <footer class="site-footer">
+        <p>&copy; Copyright 2026. All Rights Reserved Willow Ducharme</p>
+        <p>willowd674@students.caldwellschools.com</p>
+    </footer>
+   
+
+</body>
+</html>
